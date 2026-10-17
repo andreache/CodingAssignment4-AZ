@@ -11,9 +11,28 @@ body {
     text-align: left;
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #1d4b78
+}
+
+h2 {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66b3ff;
+}
+
 nav a {
     color: #8b4f3f;
     margin-right: 1rem;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: #8b4f3f;
+
 }
 
 .recipe {
