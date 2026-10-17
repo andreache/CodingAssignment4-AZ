@@ -1,4 +1,4 @@
-body {
+body{
     background-image: url(../images/background-image.jpg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     background-color: #fdf6ee;
     color: #2b2b2b;
-    text-align: left;
+    text-align: center;
 }
 
 h1 {
@@ -25,14 +25,13 @@ h2 {
 
 nav a {
     color: #8b4f3f;
-    margin-right: 1rem;
+    margin: 0 1rem;
 }
 
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     color: #8b4f3f;
-
 }
 
 .recipe {
@@ -41,11 +40,20 @@ p {
 
 .recipe img {
     width: 300px;
-    margin-left: 2 rem;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #8b4f3f;
+    width: 80%
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
     font-size: 0.9rem;
-
 }
