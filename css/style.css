@@ -1,4 +1,8 @@
-body{
+body {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
     margin: 0;
     padding: 1rem 1.5rem;
     font-family: sans-serif;
@@ -19,9 +23,10 @@ nav a {
 .recipe img {
     width: 300px;
     margin-left: 2 rem;
+    height: auto;
 }
 
 footer {
     font-size: 0.9rem;
-    
+
 }
